@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+
+.mobile-container {
+    max-width: 400px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    color: rgb(12, 190, 161);
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #1b6b75;
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: rgb(12, 190, 161);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: rgb(216, 216, 216);
+    color: #0997aa;
+}
+
+.active {
+    background-color: #0997aa;
+    color: white;
+}
+
+.display-box {
+    position: -webkit-sticky;
+    position: sticky;
+    /* top: 0; */
+    width: 100%;
+    /* padding: 1em; */
+    background-color: #0997aa;
+    height: 120px;
+    color: white;
+    border-radius: 7px;
+}
+
+.logo-avion {
+    color: rgb(255, 116, 106);
+    font-weight: bold;
+}
+
+
+/* footer {
+    background-color: #F8F8F8;
+    border-top: 1px solid #E7E7E7;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+} */
+
+.sticky-footer {
+    /* margin-top: 20px; */
+    display: block;
+    height: 58px;
+    background: #0a90a1;
+    /* top: 50em; */
+    top: 1em;
+    /* left: 100px; */
+    width: 20em;
+    border-radius: .5em;
+    position: -webkit-sticky;
+    position: relative;
+}
+
+.sticky-footer .one-fourth {
+    width: 25%;
+    float: right;
+    color: #fff;
+    text-align: center;
+    height: 58px;
+    position: relative;
+    cursor: pointer;
+}
+
+.sticky-search,
+.sticky-filters,
+.sticky-map,
+.sticky-radius {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    margin-top: 11px;
+}
+
+.sticky-footer .one-fourth p {
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #d1f5fa
+}
+
+th {
+    background-color: #0a90a1;
+    color: white;
+}
+
+td {
+    font-size: 12px;
+}
+
+.name {
+    font-size: 15px;
+    border-bottom: solid 1px white;
+    padding: 20px 7px 20px 8px;
+}
+
+.availBalance {
+    font-size: 15px;
+    border-bottom: solid 1px white;
+    padding: 20px 7px 20px 8px;
+}
+
+.body_wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.transactions {
+    background-color: #eee;
+    width: 20em;
+    height: 14em;
+    overflow: auto;
+}
+
+thead {
+    padding: 0;
+}

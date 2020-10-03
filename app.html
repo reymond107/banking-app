@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/3b9cedc814.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="app.css">
+
+</head>
+
+<body>
+
+    <!-- Simulate a smartphone / tablet -->
+    <div class="mobile-container">
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="#home" class="active"><span class="logo-avion">AVION</span><span class="logo-bank">BANK</span></a>
+            <div id="myLinks">
+                <a href="#news">Deposit</a>
+                <a href="#contact">Withdraw</a>
+                <a href="#about">Send</a>
+                <a href="#about">Request</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <div class="body_wrapper">
+            <p>MY ACCOUNT</p>
+            <div class="display-box">
+                <div>
+                    <div class="name">Johnny Bravo</div>
+                    <div class="availBalance">Available Balance:
+                        <b style="font-size: x-large;" id="balance">1000</b>
+                    </div>
+                </div>
+            </div>
+            <p>LATEST TRANSACTION</p>
+
+            <div class="transactions">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>
+                                <p>Transaction:</p>
+                            </td>
+                            <td>
+                                <p>Amount</p>
+                            </td>
+                            <td>
+                                <p>Date</p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody class="trans-list">
+                        <!-- <tr> -->
+                        <!-- <td>
+                                <p id="transaction_type">Deposit</p>
+                            </td>
+                            <td>
+                                <p id="transaction_amount">100</p>
+                            </td> -->
+                        <!-- </tr> -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="sticky-footer">
+
+                <div class="one-fourth" id="Withdraw"><img class="sticky-search" src="http://seodesigns.com/projects/codepen/060516/search.png" />
+                    <p>Withdraw</p>
+                </div>
+
+                <div class="one-fourth" id="Request"><img class="sticky-filters" src="http://seodesigns.com/projects/codepen/060516/filters.png" />
+                    <p>Request</p>
+                </div>
+
+                <div class="one-fourth" id="Deposit"><img class="sticky-map" src="http://seodesigns.com/projects/codepen/060516/map.png" />
+                    <p>Deposit</p>
+                </div>
+
+                <div class="one-fourth" id="Send"><img class="sticky-radius" src="http://seodesigns.com/projects/codepen/060516/radius.png" />
+                    <p>Send</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- End smartphone / tablet look -->
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

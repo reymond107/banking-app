@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login_page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="logo"><img src="logo.png" alt="Logo"></div>
+        <div class="top">
+            <input type="radio" name="form" id="loginBtn" value="login" onclick="logsIn();" checked>
+            <label for="loginBtn">Log In</label>
+            <input type="radio" name="form" id="signupBtn" value="signup" onclick="signsUp();">
+            <label for="signupBtn">Sign Up</label>
+        </div>
+        <div class="logIn">
+            <form name="loginform" id="loginForm">
+                <input type="username" placeholder="Username">
+                <input type="password" placeholder="Password" required>
+                <input type="submit" value="Log in">
+            </form>
+        </div>
+        <div class="signUp" style="display:none;">
+            <form name="signupform" id="signupForm">
+                <input type="username" id="username" placeholder="Username">
+                <input type="password" id="password" placeholder="Password" required>
+                <input type="password" id="repeat_password" placeholder="Repeat Password" required>
+                <input type="submit" id="signup" value="Sign up">
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>
